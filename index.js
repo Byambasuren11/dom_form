@@ -1,0 +1,10 @@
+const main = document.createElement("div");
+const firstNameDiv = document.createElement("div");
+const firstName = document.createElement("p");
+firstName.innerHTML = "firstName";
+const fistNameInput = document.createElement("input");
+firstNameDiv.style.display = "flex";
+firstNameDiv.appendChild(firstNameInput);
+firstNameDiv.appendChild(firstName);
+main.appendChild(firstNameDiv);
+document.getElementById(form).appendChild(main);
